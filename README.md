@@ -20,3 +20,4 @@ Upcoming explainers on:
 12. CI/CD with github actions and VPS based deployment pipeline.
 13. Internals of go and java with memory profiling and testing to limits
 14. Compilers, OS and networking
+15. Understanding spring boot from ground up, how application starts, developing apis with framework in java, java and go profiling
