@@ -17,3 +17,5 @@ Upcoming explainers on:
 9. Networking Review: TCP/IP protocol and subnetting
 10. DNS servers
 11. SSH tunneling and ngrok architecture
+12. CI/CD with github actions and VPS based deployment pipeline.
+
