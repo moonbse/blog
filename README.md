@@ -18,4 +18,5 @@ Upcoming explainers on:
 10. DNS servers
 11. SSH tunneling and ngrok architecture
 12. CI/CD with github actions and VPS based deployment pipeline.
-
+13. Internals of go and java with memory profiling and testing to limits
+14. Compilers, OS and networking
