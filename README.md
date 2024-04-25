@@ -21,3 +21,6 @@ Upcoming explainers on:
 13. Internals of go and java with memory profiling and testing to limits
 14. Compilers, OS and networking
 15. Understanding spring boot from ground up, how application starts, developing apis with framework in java, java and go profiling
+16. Testing ACID compliance in database, writing backends in go to test features
+17. Distributed key-value store 
+18. log-based distributed database
