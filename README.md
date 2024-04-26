@@ -24,3 +24,4 @@ Upcoming explainers on:
 16. Testing ACID compliance in database, writing backends in go to test features
 17. Distributed key-value store 
 18. log-based distributed database
+19. Serializability and isolation guarantees in database, test with spring may be
