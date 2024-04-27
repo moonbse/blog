@@ -25,3 +25,4 @@ Upcoming explainers on:
 17. Distributed key-value store 
 18. log-based distributed database
 19. Serializability and isolation guarantees in database, test with spring may be
+20. Service discovery and microservices using consul and registrator
