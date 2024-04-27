@@ -1,6 +1,6 @@
 
 
-## :pushpin:  My thoughts, collections and learning on backend & platform engineering
+## :pushpin:  My thoughts, collections and learnings on backend & platform engineering
 
 Focus is on building stuff and this blog should serve as a medium to write deep explainers on complex topics. 
 
