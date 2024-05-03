@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Abouts on Nirbhay Singh</title>
-    <link>http://localhost:1313/about/</link>
-    <description>Recent content in Abouts on Nirbhay Singh</description>
+    <title>Themes Guide on Nirbhay Singh</title>
+    <link>http://localhost:1313/series/themes-guide/</link>
+    <description>Recent content in Themes Guide on Nirbhay Singh</description>
     <image>
       <title>Nirbhay Singh</title>
       <url>http://localhost:1313/profile_site.jpeg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.125.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 May 2024 09:55:51 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/series/themes-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/about/</link>

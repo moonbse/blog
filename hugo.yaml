@@ -39,6 +39,8 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+        - name: Series
+          url: series
         - name: WiKi
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
