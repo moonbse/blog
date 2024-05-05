@@ -93,9 +93,11 @@ params:
     Content: >
        👋 Welcome to **Periscope: my window to the world**, glad you landed here!
 
-       - Feel free to connect, always eager to take a deep dive in tech and build something cool.
+       - Feel free to connect, I am always eager to take a deep dive in tech and build something cool.
 
-       - Checkout my site for more info on projects and demos [site](https://nirbhaysingh.org).
+       - I am very much fascinated by large distributed systems and most of my work is directed in that direction only.
+
+       - Checkout my [website](https://nirbhaysingh.org) for more info on projects and demos.
 
   socialIcons:
     - name: github

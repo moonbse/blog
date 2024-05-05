@@ -7,7 +7,7 @@ services:
     
     # build: .
     image: moonbse/blog:latest
-    container_name: kafka
+    container_name: blog
     platform: linux/amd64
     ports:
     - "1313:1313"
