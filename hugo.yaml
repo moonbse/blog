@@ -14,7 +14,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 #  add url sections here
 #  to start a section 
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -125,11 +125,11 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+      # favicon: "<link / abs url>"
+      # favicon16x16: "<link / abs url>"
+      # favicon32x32: "<link / abs url>"
+      # apple_touch_icon: "<link / abs url>"
+      # safari_pinned_tab: "<link / abs url>"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
