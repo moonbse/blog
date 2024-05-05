@@ -1,0 +1,15 @@
+version: '3.8'
+
+# why do I volume for this site, do I?
+
+services:
+  blog:
+    
+    # build: .
+    image: moonbse/blog:latest
+    container_name: kafka
+    platform: linux/amd64
+    ports:
+    - "1313:1313"
+    # volumes:
+    # - /Users/nirbhay11.singh/:/site
