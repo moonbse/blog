@@ -13,6 +13,6 @@ COPY ./ /site
 WORKDIR /site
 RUN hugo 
 
-EXPOSE 80 1313
-
-CMD [ "hugo", "server", "--disableFastRender", "--buildDrafts", "--watch=false", "--disableLiveReload" , "--bind", "0.0.0.0", "--baseURL=http://localhost:1313"]
+EXPOSE 80 
+# might have to change the baseURL, using default hugo server only here
+CMD [ "hugo", "server", "--disableFastRender", "--buildDrafts", "--watch=false", "--disableLiveReload" ,"--bind", "0.0.0.0",  "--baseURL=https://blog.nirbhaysingh.org" , "--appendPort=false"]

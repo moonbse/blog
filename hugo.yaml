@@ -1,4 +1,4 @@
-baseURL: "https://blog.nirbhaysingh.org/"
+baseURL: "https://blog.nirbhaysingh.org"
 languageCode: en-us
 title: Nirbhay Singh
 
@@ -42,7 +42,7 @@ languages:
         - name: Series
           url: series
         - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+          url: https://github.com/moonbse
 
 
 outputs:
