@@ -24,3 +24,17 @@ jobs:
           context: .
           push: true
           tags: moonbse/blog:latest
+
+  deploy:
+    name: Deploy
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
+      -  name: Deploy Stage
+         uses: fjogeleit/http-request-action@v1
+         with:
+          url: 'https://nirbhaysingh.org/hooks/webhook'
+          method: 'POST'
+                
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"app-id": "blog"}'          
