@@ -37,4 +37,4 @@ jobs:
           method: 'POST'
                 
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"app-id": "blog"}'          
+          data: '{"app-id": "test"}'          
