@@ -30,11 +30,20 @@ jobs:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
+      - name: Generate X-Hub-Signature
+        id: generate-signature
+        shell: bash
+        run: |
+          payload='{"app-id" : "blog"}'
+          secret="${{secrets.WEBHOOK_SECRET}}"
+          signature=$(echo -n "$payload" | openssl dgst -sha256 -hmac "$secret" | awk '{print $2}')
+          echo "signature=sha256=$signature" >> $GITHUB_ENV
+
       -  name: Deploy Stage
          uses: fjogeleit/http-request-action@v1
          with:
           url: 'https://nirbhaysingh.org/hooks/webhook'
           method: 'POST'
                 
-          customHeaders: '{"Content-Type": "application/json"}'
+          customHeaders: '{"Content-Type": "application/json", "X-Hub_Signature" : "${{env.signature}}"}'
           data: '{"app-id": "test"}'          
